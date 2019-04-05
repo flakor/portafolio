@@ -31,7 +31,7 @@ export class InfoPaginaService {
     this.http.get('https://angular-html-349c8.firebaseio.com/equipo.json').subscribe((resp: EquipoPagina) => {
       this.cargada = true;
       this.equipo = resp;
-      console.log(resp);
+      // console.log(resp);
       // console.log(resp['email']);
     });
   }
